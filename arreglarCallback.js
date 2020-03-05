@@ -11,14 +11,13 @@ console.log(resultado);
  
  
  
-function sumaBien(){
-    // completar...
+function sumaBien( x , y , cb){
+    z = x + y 
+    cb (z)
 }
   
 
-/* Descomentá esta parte para probar la función sumaBien
 sumaBien(2,5,function(resultado){
     console.log(resultado);
 })
-*/
 
